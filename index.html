@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 id="title">Gateways Survey Form</h1>
+<p id="description">We value your input in this regard.</p>
+
+<form id="survey-form">
+
+    <div class="input-elements">
+        <label id="name-label">
+        First Name
+        </label>
+        <input placeholder="First Name" id="name" type="text" required />
+        <label>
+    </div>
+
+    <div class="input-elements">
+        <label id="email-label">
+        Email address
+        </label>
+        <input placeholder="Email address" id="email" type="email" required />
+        <label>
+    </div>
+
+    <div class="input-elements">
+        <label id="number-label">
+        Age
+        </label>
+        <input placeholder="Your Age" min="7" max="100" id="number" type="number" required />
+        <label>
+    </div>
+
+    <div class="input-elements">
+        <label id="select-label">
+        Where did you hear about us?
+        </label>
+        <select id="dropdown">
+        <option>Google</option>
+        <option>Facebook</option>
+        <option>Instagram</option>
+        <option>Twitter</option>
+        <option>LinkedIn</option>
+        <option>Other</option>
+        </select>
+        <label>
+    </div>
+
+    <div class="input-elements">
+        <label>Have you contacted Gateways before?</label>
+    </div>
+    <div>
+        <label><input value="ideas-yes" type="radio" name="ideas"/>Yes</label>
+    </div>
+    <div>
+        <label><input value="ideas-no" type="radio" name="ideas"/>No</label>
+    </div>
+
+    <div class="input-elements">
+        <label>Would you like to know more about Gateways</label>
+    </div>
+    <div>
+        <label><input type="checkbox" name="ideas" value="yes-info" />Yes</label>
+    </div>
+    <div>
+        <label><input type="checkbox" name="ideas" value="no-info" />No</label>
+    </div>
+    <div>
+        <label><input type="checkbox" name="ideas" value="maybe-info" />Maybe</label>
+    </div>
+
+    <div>
+        <label>Additional Comments</label>
+        <textarea type="text"></textarea>
+    </div>
+
+  <button type="submit" id="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
+
